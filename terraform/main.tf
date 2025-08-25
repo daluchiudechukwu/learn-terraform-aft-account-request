@@ -26,7 +26,7 @@ module "bluevarsity" {
   account_customizations_name = "bluevarsity"
 }
 
-module "sandbox" {
+module "mybirthpals" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
@@ -54,7 +54,7 @@ module "sandbox" {
   account_customizations_name = "mybirthpals"
 }
 
-module "sandbox" {
+module "edenetravel" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
@@ -82,7 +82,7 @@ module "sandbox" {
   account_customizations_name = "edenetravel"
 }
 
-module "sandbox" {
+module "ictfpnf" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
@@ -110,7 +110,7 @@ module "sandbox" {
   account_customizations_name = "ictfedpolynek"
 }
 
-module "sandbox" {
+module "ceelatech" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
